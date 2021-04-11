@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg7"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:id="@+id/classicButtonId"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="match_parent"
+            android:layout_height="71dp"
+            android:layout_marginBottom="6dp"
+            android:background="@drawable/button3"
+            android:fontFamily="@font/carter_one"
+            android:text="Classic"
+            android:textAllCaps="false"
+            android:textColor="#433885"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/timeButtonId"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="270dp"
+            android:layout_height="65dp"
+            android:layout_marginBottom="6dp"
+            android:background="@drawable/button3"
+            android:fontFamily="@font/carter_one"
+            android:text="Time"
+            android:textAllCaps="false"
+            android:textColor="#433885"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/speedButtonId"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="270dp"
+            android:layout_height="65dp"
+            android:layout_marginBottom="6dp"
+            android:background="@drawable/button3"
+            android:fontFamily="@font/carter_one"
+            android:text="Speed Test"
+            android:textAllCaps="false"
+            android:textColor="#433885"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/vsButtonId"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="270dp"
+            android:layout_height="65dp"
+            android:background="@drawable/button3"
+            android:fontFamily="@font/carter_one"
+            android:text="Play With Friend"
+            android:textAllCaps="false"
+            android:textColor="#433885"
+            android:textSize="24sp" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:srcCompat="@drawable/altmenu"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <ImageButton
+        android:id="@+id/settingsId"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="70dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginRight="24dp"
+        android:background="@drawable/unmute"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/leaderBoardId"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="93dp"
+        android:layout_height="85dp"
+        android:background="@drawable/pedium2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView" />
+
+    <ImageButton
+        android:id="@+id/rateUsId"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="80dp"
+        android:layout_height="70dp"
+        android:background="@drawable/star"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/leaderBoardId"
+        app:layout_constraintTop_toTopOf="@+id/imageView" />
+
+    <ImageButton
+        android:id="@+id/sahreButtonId"
+        android:layout_width="55dp"
+        android:layout_height="60dp"
+        android:background="@drawable/share"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/leaderBoardId"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/carter_one"
+        android:text="Reflex Game"
+        android:textColor="#433885"
+        android:textSize="33sp"
+        app:layout_constraintBottom_toBottomOf="@+id/settingsId"
+        app:layout_constraintEnd_toStartOf="@+id/settingsId"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/settingsId" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

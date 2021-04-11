@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Reflex Game</string>
+    <string name="leaderboard_id">CgkI8dftn8wfEAIQAQ</string>
+    <string name="leaderboard_id_time">CgkI8dftn8wfEAIQAg</string>
+    <string name="leaderboard_id_speed">CgkI8dftn8wfEAIQAw</string>
+
+    <string name="tap">Tap when it is green</string>
+
+</resources>
